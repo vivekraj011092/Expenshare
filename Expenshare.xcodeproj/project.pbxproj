@@ -7,17 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		448687CA1EF6FC5500D15EF8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448687C91EF6FC5500D15EF8 /* SWRevealViewController.m */; };
+		448D7A2C1EF988B500C4DF21 /* Delegates.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D7A2B1EF988B500C4DF21 /* Delegates.m */; };
+		448D7A2F1EF98A1400C4DF21 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D7A2E1EF98A1400C4DF21 /* Utils.m */; };
+		448DC69B1EF31C7400350458 /* ExpenshareMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 448DC69A1EF31C7400350458 /* ExpenshareMenuView.m */; };
 		449E6C361EE86B3200EF8C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 449E6C351EE86B3200EF8C9E /* main.m */; };
 		449E6C391EE86B3200EF8C9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 449E6C381EE86B3200EF8C9E /* AppDelegate.m */; };
 		449E6C3F1EE86B3200EF8C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449E6C3D1EE86B3200EF8C9E /* Main.storyboard */; };
 		449E6C421EE86B3200EF8C9E /* Expenshare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 449E6C401EE86B3200EF8C9E /* Expenshare.xcdatamodeld */; };
 		449E6C441EE86B3200EF8C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449E6C431EE86B3200EF8C9E /* Assets.xcassets */; };
 		449E6C471EE86B3200EF8C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449E6C451EE86B3200EF8C9E /* LaunchScreen.storyboard */; };
-		449E6C581EE8722E00EF8C9E /* MainExpenshareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449E6C571EE8722E00EF8C9E /* MainExpenshareView.xib */; };
+		449E6C581EE8722E00EF8C9E /* ExpenshareMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449E6C571EE8722E00EF8C9E /* ExpenshareMenuView.xib */; };
 		449E6C5B1EE88A7200EF8C9E /* ExpenshareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449E6C5A1EE88A7200EF8C9E /* ExpenshareViewController.m */; };
+		44F618631EF8238D007F250D /* CustomMenuHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F618611EF8238D007F250D /* CustomMenuHeaderCell.m */; };
+		44F618641EF8238D007F250D /* CustomMenuHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F618621EF8238D007F250D /* CustomMenuHeaderCell.xib */; };
+		44F618671EF83F6E007F250D /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F618661EF83F6E007F250D /* MenuViewController.m */; };
+		44F6186B1EF84813007F250D /* CustomMenuFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F618691EF84813007F250D /* CustomMenuFooterCell.m */; };
+		44F6186C1EF84813007F250D /* CustomMenuFooterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F6186A1EF84813007F250D /* CustomMenuFooterCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		448687C81EF6FC5500D15EF8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		448687C91EF6FC5500D15EF8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		448D7A2A1EF988B500C4DF21 /* Delegates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delegates.h; sourceTree = "<group>"; };
+		448D7A2B1EF988B500C4DF21 /* Delegates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Delegates.m; sourceTree = "<group>"; };
+		448D7A2D1EF98A1400C4DF21 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		448D7A2E1EF98A1400C4DF21 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		448DC6991EF31C7400350458 /* ExpenshareMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenshareMenuView.h; sourceTree = "<group>"; };
+		448DC69A1EF31C7400350458 /* ExpenshareMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenshareMenuView.m; sourceTree = "<group>"; };
 		449E6C311EE86B3200EF8C9E /* Expenshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expenshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		449E6C351EE86B3200EF8C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		449E6C371EE86B3200EF8C9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,9 +44,17 @@
 		449E6C431EE86B3200EF8C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		449E6C461EE86B3200EF8C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		449E6C481EE86B3200EF8C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		449E6C571EE8722E00EF8C9E /* MainExpenshareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainExpenshareView.xib; sourceTree = "<group>"; };
+		449E6C571EE8722E00EF8C9E /* ExpenshareMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpenshareMenuView.xib; sourceTree = "<group>"; };
 		449E6C591EE88A7200EF8C9E /* ExpenshareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenshareViewController.h; sourceTree = "<group>"; };
 		449E6C5A1EE88A7200EF8C9E /* ExpenshareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenshareViewController.m; sourceTree = "<group>"; };
+		44F618601EF8238D007F250D /* CustomMenuHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMenuHeaderCell.h; sourceTree = "<group>"; };
+		44F618611EF8238D007F250D /* CustomMenuHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMenuHeaderCell.m; sourceTree = "<group>"; };
+		44F618621EF8238D007F250D /* CustomMenuHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomMenuHeaderCell.xib; sourceTree = "<group>"; };
+		44F618651EF83F6E007F250D /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		44F618661EF83F6E007F250D /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		44F618681EF84813007F250D /* CustomMenuFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMenuFooterCell.h; sourceTree = "<group>"; };
+		44F618691EF84813007F250D /* CustomMenuFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMenuFooterCell.m; sourceTree = "<group>"; };
+		44F6186A1EF84813007F250D /* CustomMenuFooterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomMenuFooterCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +117,8 @@
 		449E6C4E1EE86B5700EF8C9E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				448D7A2D1EF98A1400C4DF21 /* Utils.h */,
+				448D7A2E1EF98A1400C4DF21 /* Utils.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -113,7 +140,15 @@
 		449E6C511EE86B9500EF8C9E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				449E6C571EE8722E00EF8C9E /* MainExpenshareView.xib */,
+				449E6C571EE8722E00EF8C9E /* ExpenshareMenuView.xib */,
+				448DC6991EF31C7400350458 /* ExpenshareMenuView.h */,
+				448DC69A1EF31C7400350458 /* ExpenshareMenuView.m */,
+				44F618601EF8238D007F250D /* CustomMenuHeaderCell.h */,
+				44F618611EF8238D007F250D /* CustomMenuHeaderCell.m */,
+				44F618621EF8238D007F250D /* CustomMenuHeaderCell.xib */,
+				44F618681EF84813007F250D /* CustomMenuFooterCell.h */,
+				44F618691EF84813007F250D /* CustomMenuFooterCell.m */,
+				44F6186A1EF84813007F250D /* CustomMenuFooterCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -121,6 +156,8 @@
 		449E6C521EE86B9F00EF8C9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				448687C81EF6FC5500D15EF8 /* SWRevealViewController.h */,
+				448687C91EF6FC5500D15EF8 /* SWRevealViewController.m */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,6 +167,8 @@
 			children = (
 				449E6C591EE88A7200EF8C9E /* ExpenshareViewController.h */,
 				449E6C5A1EE88A7200EF8C9E /* ExpenshareViewController.m */,
+				44F618651EF83F6E007F250D /* MenuViewController.h */,
+				44F618661EF83F6E007F250D /* MenuViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -137,6 +176,8 @@
 		449E6C541EE86C0C00EF8C9E /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
+				448D7A2A1EF988B500C4DF21 /* Delegates.h */,
+				448D7A2B1EF988B500C4DF21 /* Delegates.m */,
 			);
 			name = Delegates;
 			sourceTree = "<group>";
@@ -216,9 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F618641EF8238D007F250D /* CustomMenuHeaderCell.xib in Resources */,
 				449E6C471EE86B3200EF8C9E /* LaunchScreen.storyboard in Resources */,
 				449E6C441EE86B3200EF8C9E /* Assets.xcassets in Resources */,
-				449E6C581EE8722E00EF8C9E /* MainExpenshareView.xib in Resources */,
+				449E6C581EE8722E00EF8C9E /* ExpenshareMenuView.xib in Resources */,
+				44F6186C1EF84813007F250D /* CustomMenuFooterCell.xib in Resources */,
 				449E6C3F1EE86B3200EF8C9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,10 +273,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				448DC69B1EF31C7400350458 /* ExpenshareMenuView.m in Sources */,
+				448D7A2F1EF98A1400C4DF21 /* Utils.m in Sources */,
 				449E6C391EE86B3200EF8C9E /* AppDelegate.m in Sources */,
+				44F618631EF8238D007F250D /* CustomMenuHeaderCell.m in Sources */,
+				44F618671EF83F6E007F250D /* MenuViewController.m in Sources */,
 				449E6C421EE86B3200EF8C9E /* Expenshare.xcdatamodeld in Sources */,
 				449E6C361EE86B3200EF8C9E /* main.m in Sources */,
+				448D7A2C1EF988B500C4DF21 /* Delegates.m in Sources */,
 				449E6C5B1EE88A7200EF8C9E /* ExpenshareViewController.m in Sources */,
+				448687CA1EF6FC5500D15EF8 /* SWRevealViewController.m in Sources */,
+				44F6186B1EF84813007F250D /* CustomMenuFooterCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +442,7 @@
 				449E6C4D1EE86B3200EF8C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

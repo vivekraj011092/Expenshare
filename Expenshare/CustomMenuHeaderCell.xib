@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="KGk-i7-Jjw" customClass="CustomMenuHeaderCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3jm-3Q-oRa">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="3jm-3Q-oRa" secondAttribute="height" multiplier="1:1" id="Jv7-Ax-2P0"/>
+                            <constraint firstAttribute="width" constant="60" id="TT2-aZ-pNO"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDO-dT-URe">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuC-Hv-bbd">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cDO-dT-URe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="2bu-tB-Ml6"/>
+                    <constraint firstItem="cuC-Hv-bbd" firstAttribute="top" secondItem="cDO-dT-URe" secondAttribute="bottom" id="3rM-qx-3Ne"/>
+                    <constraint firstItem="3jm-3Q-oRa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="8HS-j4-44n"/>
+                    <constraint firstItem="cuC-Hv-bbd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Kkm-7C-JRb"/>
+                    <constraint firstItem="cDO-dT-URe" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="VMi-ol-yZi"/>
+                    <constraint firstItem="cuC-Hv-bbd" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="kPG-wu-ySP"/>
+                    <constraint firstItem="cDO-dT-URe" firstAttribute="top" secondItem="3jm-3Q-oRa" secondAttribute="bottom" constant="8" id="lTb-FB-y5F"/>
+                    <constraint firstItem="3jm-3Q-oRa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="oK2-rX-SaB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="emailLabel" destination="cuC-Hv-bbd" id="Qdv-4M-aPp"/>
+                <outlet property="headerImageView" destination="3jm-3Q-oRa" id="SAo-Lq-BKA"/>
+                <outlet property="nameLabel" destination="cDO-dT-URe" id="T4a-Yp-43A"/>
+            </connections>
+            <point key="canvasLocation" x="-103" y="69"/>
+        </tableViewCell>
+    </objects>
+</document>

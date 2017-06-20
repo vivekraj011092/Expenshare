@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ExpenshareMenuView">
+            <rect key="frame" x="0.0" y="0.0" width="311" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Ht8-mj-fGt">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN0-gV-MZI">
+                            <state key="normal" title="Groups"/>
+                            <connections>
+                                <action selector="groupBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="CBz-be-wVl"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khQ-RC-39W">
+                            <state key="normal" title="Friends"/>
+                            <connections>
+                                <action selector="friendBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="4BF-T9-amU"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjn-pY-4OY">
+                            <state key="normal" title="Activity"/>
+                            <connections>
+                                <action selector="activityBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="WXb-cA-3g3"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hdL-sQ-KPG">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qD8-Os-Q0K">
+                            <color key="backgroundColor" red="1" green="0.18883335470000001" blue="0.2862210429" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="3" id="yvP-dx-c3r"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24X-uX-JJ2">
+                            <color key="backgroundColor" red="0.95732555770000005" green="0.9715154091" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4N-QL-Qdh">
+                            <color key="backgroundColor" red="0.95732555770000005" green="0.9715154091" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="24X-uX-JJ2" firstAttribute="width" secondItem="qD8-Os-Q0K" secondAttribute="width" id="Nb3-K4-1HO"/>
+                        <constraint firstItem="A4N-QL-Qdh" firstAttribute="width" secondItem="24X-uX-JJ2" secondAttribute="width" id="Yjq-K2-9xO"/>
+                        <constraint firstItem="24X-uX-JJ2" firstAttribute="height" secondItem="qD8-Os-Q0K" secondAttribute="height" id="cq8-AQ-fWG"/>
+                        <constraint firstItem="A4N-QL-Qdh" firstAttribute="height" secondItem="qD8-Os-Q0K" secondAttribute="height" id="vmq-57-pCR"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.75050784979999996" blue="0.74432677010000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Ht8-mj-fGt" secondAttribute="trailing" constant="20" id="0Qi-tu-JbY"/>
+                <constraint firstItem="Ht8-mj-fGt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4fG-Ft-GRQ"/>
+                <constraint firstItem="Ht8-mj-fGt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="5FO-eN-cvA"/>
+                <constraint firstAttribute="bottom" secondItem="hdL-sQ-KPG" secondAttribute="bottom" id="jDG-Qn-oe0"/>
+                <constraint firstAttribute="trailing" secondItem="hdL-sQ-KPG" secondAttribute="trailing" id="jwg-6p-9Q0"/>
+                <constraint firstItem="hdL-sQ-KPG" firstAttribute="top" secondItem="Ht8-mj-fGt" secondAttribute="bottom" id="pSN-gL-rky"/>
+                <constraint firstItem="hdL-sQ-KPG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yaL-jv-b2R"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="activityLbl" destination="A4N-QL-Qdh" id="CUD-Jx-kEb"/>
+                <outlet property="friendLbl" destination="24X-uX-JJ2" id="hk0-Ft-Qcm"/>
+                <outlet property="groupLbl" destination="qD8-Os-Q0K" id="1i0-nH-aqu"/>
+            </connections>
+            <point key="canvasLocation" x="-7.5" y="-529.5"/>
+        </view>
+    </objects>
+</document>
